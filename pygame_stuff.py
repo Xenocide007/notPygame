@@ -7,7 +7,7 @@ black = (0,0,0)
 red = (255,0,0)
 
 displayWidth = 800
-dispalyHeight = 600
+displayHeight = 600
 speed = 5
 rektWidth = 10
 rektHeight = 10
@@ -58,7 +58,7 @@ while not gameExit:
 	pygame.draw.rect(gameDisplay, black, [lead_x, lead_y, rektWidth, rektHeight])
 	pygame.display.update()
 
-	clock.tick(999)
+	clock.tick(30)
 
 pygame.quit()
 quit()
