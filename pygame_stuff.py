@@ -36,13 +36,13 @@ while not gameExit:
 			if event.key == pygame.K_DOWN:
 				lead_y_change = 5
 				lead_x_change = 0
-	if lead_x > 800:
+	if lead_x >= 800:
 		lead_x_change = -5
-	if lead_x < 0:
+	if lead_x <= 0:
 		lead_x_change = 5
-	if lead_y > 600:
+	if lead_y >= 600:
 		lead_y_change = -5
-	if lead_y < 0:
+	if lead_y <= 0:
 		lead_y_change = 5		
 
 
